@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha do paciente</title>
+    <link rel="stylesheet" href="style_patient_record.css">
+</head>
+<body>
+    <form action="" class="patient_record">
+        <div class="container">
+        
+            <div class="head">
+                <h1>Ficha do paciente</h1>
+                <h5>Informações essenciais<br><i>Mandatory info / infos obligatoires</i></h5>
+            </div>
+            <div class="personal_info">
+                <div class="name">
+                    <label for="name" id="name">Nome:</label>
+                    <input type="text" name="name" id="name" required="required">
+                </div>
+                <div>
+                    <label for="telephone" id="telephone">Telefone Res.</label>
+                    <input type="tel" name="telephone" id="telephone">
+                </div>
+                <div>
+                    <label for="phone" id="phone">Celular:</label>
+                    <input type="tel" name="phone" id="phone" required="required">
+                </div>
+                <div>
+                    <label for="cpf" id="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" required="required">
+                </div>
+                <div>
+                    <label for="telephone2" id="telephone2">Telefone Com.:</label><input type="tel" name="telephone2" id="telephone2">
+                </div>
+                <div>
+                    <label for="whatsapp" id="whatsapp">Whatsapp:</label>
+                    <input type="tel" name="whatsapp" id="whatsapp">
+                </div>
+                <div>
+                    <label for="email" id="email">E-mail:</label><input type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="parents_info">
+                <div>
+                    <label for="father" id="father">Pai:</label>
+                    <input type="text" name="father" id="father">
+                </div>
+                <div>
+                    <label for="mother" id="mother">Mãe:</label><input type="text" name="mother" id="mother">
+                </div>
+            </div>
+            <div class="personal_address">
+                <div class="cep">
+                    <label for="cep" id="cep">CEP:</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <div class="address">
+                    <label for="address" id="address">Endereço:</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="city">
+                    <label for="city" id="city">Cidade:</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="state">
+                    <label for="state" id="state">Estado:</label>
+                    <input type="text" name="state" id="state">
+                </div>
+            </div>
+            <div class="    ">
+                <label for="recommendation" id="recommendation">Encaminhado por:</label>
+                <input type="text" name="recommendation" id="recommendation">
+            </div>
+            <div class="personal_info2">
+                <div>
+                    <label for="birth_country">Naturalidade</label>
+                    <input type="text" name="birth_country" id="birth_country">
+                </div>
+                <div>
+                    <label for="marital_status">Estado Civil</label>
+                    <input type="text" name="marital_status" id="marital_status">
+                </div>
+                <div>
+                    <label for="profession">Profissão</label>
+                    <input type="text" name="profession" id="profession">
+                </div>
+                <div>
+                    <label for="birth">Data de nascimento</label>
+                    <input type="date" name="birth" id="birth">
+                </div>
+                <div>
+                    <label>Sexo:</label>
+                    <select name="gender" id="gender">
+                        <option value="female">Feminino</option>
+                        <option value="male">Masculino</option>
+                        <option value="others">Outro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
